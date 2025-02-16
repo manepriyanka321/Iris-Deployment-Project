@@ -38,7 +38,7 @@ def predict_results(model, sep_len, sep_wid, pet_len, pet_wid):
 
 # Creating the web app interface
 st.title("Iris Prediction Project")
-st.subheader("by Utkarsh Gaikwad")
+st.subheader("by Priyanka Mane")
 
 # Take inputs from user
 sep_len = st.number_input("Sepal Length", min_value=0.00, step=0.01)
